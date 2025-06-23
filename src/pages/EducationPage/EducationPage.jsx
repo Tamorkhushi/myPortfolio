@@ -28,10 +28,10 @@ const EducationSection = ({ mainHead, title, subtitle, duration, achievements, d
             </div>
             {/* Content Section */}
             <div className="w-full mx-auto md:w-[55%] lg:w-[45%] h-auto font-DM text-slate-700  text-center">
-                <h1 className='text-2xl sm:text-3xl md:text-4xl text-[#ff0000]'>{mainHead}</h1>
+                <h1 className='text-2xl sm:text-3xl md:text-4xl text-blue-500'>{mainHead}</h1>
                 <div className='my-2'>
                     <h2 className="text-xl lg:text-2xl italic font-semibold ">{title}</h2>
-                    <h4 className="text-lg text-[#ff0000] font-semibold">Duration : {duration}</h4>
+                    <h4 className="text-lg text-blue-500 font-semibold">Duration : {duration}</h4>
                 </div>
                 <div className="flex flex-col gap-4">
                     <p className="text-gray-700 leading-relaxed text-sm sm:text-lg">
@@ -91,7 +91,7 @@ function EducationPage() {
                     <h1 className="text-4xl sm:text-3xl md:text-5xl lg:text-7xl text-[#ffffff] uppercase font-bold mb-2 md:mb-4">
                         My Education
                     </h1>
-                    <h4 className="text-[#ff0000] text-xl md:text-2xl font-semibold">A Journey of Knowledge and Growth</h4>
+                    <h4 className="text-blue-500 text-xl md:text-2xl font-semibold">A Journey of Knowledge and Growth</h4>
                 </div>
             </div>
 

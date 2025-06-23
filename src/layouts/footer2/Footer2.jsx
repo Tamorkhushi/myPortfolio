@@ -26,9 +26,9 @@ const Footer2 = () => {
         <div className="flex flex-wrap justify-between border-b-2 border-gray-500 pb-4" >
           <div className="w-64 py-4">
             <h3 className="flex items-center uppercase text-white text-lg" data-aos="fade-down">
-              <FaLink className="text-[#ff0000] mr-3" />profile link
+              <FaLink className="text-blue-500 mr-3" />profile link
             </h3>
-            <div className="w-8 h-1 bg-[#ff0000] my-4" data-aos="fade-down"></div>
+            <div className="w-8 h-1 bg-blue-500 my-4" data-aos="fade-down"></div>
             <div className="w-auto mt-10 h-auto">
               <div className="flex justify-center gap-0 sm:gap-1 md:gap-4">
                 {navItems.map((item, index) => (
@@ -40,9 +40,9 @@ const Footer2 = () => {
           {/* Call Us */}
           <div className="w-52 py-4">
             <h3 className="flex items-center uppercase text-white text-lg" data-aos="fade-down">
-              <FaPhone className="text-[#ff0000] mr-3" /> Call Us
+              <FaPhone className="text-blue-500 mr-3" /> Call Us
             </h3>
-            <div className="w-8 h-1 bg-[#ff0000] my-4" data-aos="fade-down"></div>
+            <div className="w-8 h-1 bg-blue-500 my-4" data-aos="fade-down"></div>
             <div>
               <p className="text-gray-400 text-sm">
                 <span className="text-white">Phone:  </span> +91-7678295963
@@ -53,9 +53,9 @@ const Footer2 = () => {
           {/* Address */}
           <div className="w-52 py-4">
             <h3 className="flex items-center uppercase text-white text-lg" data-aos="fade-down">
-              <FaLocationDot className="text-[#ff0000] mr-3" /> Address
+              <FaLocationDot className="text-blue-500 mr-3" /> Address
             </h3>
-            <div className="w-8 h-1 bg-[#ff0000] my-4" data-aos="fade-down"></div>
+            <div className="w-8 h-1 bg-blue-500 my-4" data-aos="fade-down"></div>
             <div>
               <p className="text-gray-400 text-sm">
                 <span className="text-white">Location: </span>
@@ -68,9 +68,9 @@ const Footer2 = () => {
           {/* Mail Us */}
           <div className="w-64 py-4">
             <h3 className="flex items-center uppercase text-white text-lg" data-aos="fade-down">
-              <FaEnvelope className="text-[#ff0000] mr-3" /> Mail Us
+              <FaEnvelope className="text-blue-500 mr-3" /> Mail Us
             </h3>
-            <div className="w-8 h-1 bg-[#ff0000] my-4" data-aos="fade-down"></div>
+            <div className="w-8 h-1 bg-blue-500 my-4" data-aos="fade-down"></div>
             <div>
               <p className="text-gray-400 text-sm">
                 <span className="text-white">Gmail 1: </span>tamorkhushi@gmail.com
@@ -81,9 +81,9 @@ const Footer2 = () => {
           {/* Office */}
           <div className="w-52 py-4">
             <h3 className="flex items-center uppercase text-white text-lg" data-aos="fade-down">
-              <FaGlobe className="text-[#ff0000] mr-3" /> Link
+              <FaGlobe className="text-blue-500 mr-3" /> Link
             </h3>
-            <div className="w-8 h-1 bg-[#ff0000] my-4" data-aos="fade-down"></div>
+            <div className="w-8 h-1 bg-blue-500 my-4" data-aos="fade-down"></div>
             <div>
               
               <NavLink to={"/"}><p className="text-gray-400 text-sm">

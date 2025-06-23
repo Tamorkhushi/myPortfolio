@@ -30,7 +30,7 @@ function Skills_part() {
 
    return (
       <div className='w-screen py-12 bg-[#efefef]  h-auto'>
-         <h2 className='text-4xl text-center uppercase font-DM font-Five text-[#ff0000]' data-aos="fade-down"> My Sills </h2>
+         <h2 className='text-4xl text-center uppercase font-DM font-Five text-black' data-aos="fade-down"> My Sills </h2>
          <div className='w-[90%] h-auto m-auto mt-12 flex flex-wrap justify-center gap-6 border-black'>
             {SkillData.map((item, index) => (
                <div className='w-[12rem] h-[14rem]  '>
@@ -43,7 +43,7 @@ function Skills_part() {
             ))}
          </div>
          <div className='flex justify-center'>
-               <Button context="Know more" style="border-[#000000] bg-[#ff0000] group-hover:border-black" btStyle="bg-[#000000] text-white" link="skills"/>
+               <Button context="Know more" style="border-[#000000] bg-blue-500 group-hover:border-black" btStyle="bg-[#000000] text-white" link="skills"/>
          </div>
 
       </div>

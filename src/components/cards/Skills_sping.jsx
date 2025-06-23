@@ -7,13 +7,23 @@ const LoadingCircle = ({icon: Icon}) => {
           AOS.init();
         }, []);
   return (
+    // <div className=" w-full flex justify-center group" data-aos="fade-up">
+    //   <div className="relative h-[8rem] w-[8rem]  rotate-45 border-[7px] border-white group-hover:border-[#ff0000] animate-[move_0.5s_linear_infinite_alternate-reverse] flex items-center justify-center group-hover:animate-none  ">
+    //     <div className="h-[6.7rem] w-[6.7rem]  border-x-[#ff0000] border-y-black border-double border-transparent group-hover:border-x-[#000000] border-[7px]  group-hover:animate-none flex items-center justify-center">
+    //       <Icon className={`text-[4rem] group-hover:text-[#ff0000] text-black  rotate-[-45deg]`} />
+    //     </div>
+    //   </div>
+    // </div>
+
     <div className=" w-full flex justify-center group" data-aos="fade-up">
-      <div className="relative h-[8rem] w-[8rem]  rotate-45 border-[7px] border-white group-hover:border-[#ff0000] animate-[move_0.5s_linear_infinite_alternate-reverse] flex items-center justify-center group-hover:animate-none  ">
-        <div className="h-[6.7rem] w-[6.7rem]  border-x-[#ff0000] border-y-black border-double border-transparent group-hover:border-x-[#000000] border-[7px]  group-hover:animate-none flex items-center justify-center">
-          <Icon className={`text-[4rem] group-hover:text-[#ff0000] text-black  rotate-[-45deg]`} />
+      <div className="relative h-[8rem] w-[8rem]  rotate-45 border-[7px] border-white  flex items-center justify-center   ">
+        <div className="h-[6.7rem] w-[6.7rem]  border-x-[#ff0000] border-y-black border-double border-transparent border-[7px]   flex items-center justify-center">
+          <Icon className={`text-[4rem]  text-black  rotate-[-45deg]`} />
         </div>
       </div>
     </div>
+
+    
   );
 };
 

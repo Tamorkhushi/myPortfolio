@@ -13,8 +13,8 @@ const Project_part = () => {
     return (
         <div className="w-screen py-12 bg-[#efefef] h-auto">
             <h2
-                className="text-4xl text-center uppercase font-DM font-Five text-[#ff0000]"
-                data-aos="fade-down"
+                className="text-4xl text-center uppercase font-DM font-Five text-black"
+                data-aos="fade-down "
             >
                 My Projects
             </h2>
@@ -27,11 +27,11 @@ const Project_part = () => {
                         alt="tree"
                         className="block w-full h-full  transition-transform duration-500 group-hover:scale-105"
                     />
-                    <div className="absolute top-full w-full h-full bg-gradient-to-t from-black via-gray-800 to-transparent text-[#ff0000] opacity-0 group-hover:top-0 group-hover:opacity-90 transition-all duration-500 flex flex-col items-center justify-center">
+                    <div className="absolute top-full w-full h-full bg-gradient-to-t from-black via-gray-800 to-transparent text-blue-500 opacity-0 group-hover:top-0 group-hover:opacity-90 transition-all duration-500 flex flex-col items-center justify-center">
                         <h3 className="text-lg font-bold uppercase">Acting School</h3>
                         <p className="text-sm text-white">Designed and developed independently</p>
                         <Link to={"/projects"}>
-                            <button className="mt-4 px-4 py-2 bg-[#ff0000] text-white rounded-md shadow-md hover:bg-[#cc0000] transition-all duration-300">
+                            <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-400 transition-all duration-300">
                                 View Project
                             </button>
                         </Link>
@@ -40,15 +40,15 @@ const Project_part = () => {
                 </div>
                 <div className="h-[13rem] sm:h-[16rem] w-[20rem] sm:w-[25rem] cursor-pointer border-2 border-gray-300 rounded-lg shadow-lg relative group overflow-hidden flex items-center" data-aos="zoom-in">
                     <img
-                        src="projectsImg/atifram/home.png"
+                        src="projectsImg/atifram/health.jpg"
                         alt="tree"
                         className="block w-full h-full  transition-transform duration-500 group-hover:scale-105"
                     />
-                    <div className="absolute top-full w-full h-full bg-gradient-to-t from-black via-gray-800 to-transparent text-[#ff0000] opacity-0 group-hover:top-0 group-hover:opacity-90 transition-all duration-500 flex flex-col items-center justify-center">
-                        <h3 className="text-lg font-bold uppercase">Attifram</h3>
+                    <div className="absolute top-full w-full h-full bg-gradient-to-t from-black via-gray-800 to-transparent text-blue-500 opacity-0 group-hover:top-0 group-hover:opacity-90 transition-all duration-500 flex flex-col items-center justify-center">
+                        <h3 className="text-lg font-bold uppercase">Industries We Serve</h3>
                         <p className="text-sm text-white">Designed and developed independently</p>
                         <Link to={"/projects"}>
-                            <button className="mt-4 px-4 py-2 bg-[#ff0000] text-white rounded-md shadow-md hover:bg-[#cc0000] transition-all duration-300">
+                            <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-400 transition-all duration-300">
                                 View Project
                             </button>
                         </Link>
@@ -60,18 +60,18 @@ const Project_part = () => {
                         alt="tree"
                         className="block w-full h-full  transition-transform duration-500 group-hover:scale-105"
                     />
-                    <div className="absolute top-full w-full h-full bg-gradient-to-t from-black via-gray-800 to-transparent text-[#ff0000] opacity-0 group-hover:top-0 group-hover:opacity-90 transition-all duration-500 flex flex-col items-center justify-center">
+                    <div className="absolute top-full w-full h-full bg-gradient-to-t from-black via-gray-800 to-transparent text-blue-500 opacity-0 group-hover:top-0 group-hover:opacity-90 transition-all duration-500 flex flex-col items-center justify-center">
                         <h3 className="text-lg font-bold uppercase">E-commerce</h3>
                         <p className="text-sm text-white">Collaborated with the team</p>
                         <Link to={"/projects"}>
-                            <button className="mt-4 px-4 py-2 bg-[#ff0000] text-white rounded-md shadow-md hover:bg-[#cc0000] transition-all duration-300">
+                            <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-400 transition-all duration-300">
                                 View Project
                             </button>
                         </Link>
                     </div>
                 </div>
 
-                <div className="h-[13rem] sm:h-[16rem] w-[20rem] sm:w-[25rem] cursor-pointer border-2 border-gray-300 rounded-lg shadow-lg relative group overflow-hidden flex items-center" data-aos="zoom-in">
+                {/* <div className="h-[13rem] sm:h-[16rem] w-[20rem] sm:w-[25rem] cursor-pointer border-2 border-gray-300 rounded-lg shadow-lg relative group overflow-hidden flex items-center" data-aos="zoom-in">
                     <img
                         src="projectsImg/srcemP/srcem.png"
                         alt="tree"
@@ -81,23 +81,23 @@ const Project_part = () => {
                         <h3 className="text-lg font-bold uppercase tracking-wide">S.R.C.E.M.</h3>
                         <p className="text-sm text-white">Collaborated with the team</p>
                         <Link to={"/projects"}>
-                            <button className="mt-4 px-4 py-2 bg-[#ff0000] text-white rounded-md shadow-md hover:bg-[#cc0000] transition-all duration-300">
+                            <button className="mt-4 px-4 py-2 bg-[#ff0000] text-white rounded-md shadow-md hover:bg-blue-400 transition-all duration-300">
                                 View Project
                             </button>
                         </Link>
                     </div>
-                </div>
+                </div> */}
                 <div className="h-[13rem] sm:h-[16rem] w-[20rem] sm:w-[25rem] cursor-pointer border-2 border-gray-300 rounded-lg shadow-lg relative group overflow-hidden flex items-center" data-aos="zoom-in">
                     <img
                         src="projectsImg/wiztiep/wiztie.png"
                         alt="tree"
                         className="block w-full h-full  transition-transform duration-500 group-hover:scale-105"
                     />
-                    <div className="absolute top-full w-full h-full bg-gradient-to-t from-black via-gray-800 to-transparent text-[#ff0000] opacity-0 group-hover:top-0 group-hover:opacity-90 transition-all duration-500 flex flex-col items-center justify-center">
+                    <div className="absolute top-full w-full h-full bg-gradient-to-t from-black via-gray-800 to-transparent text-blue-500 opacity-0 group-hover:top-0 group-hover:opacity-90 transition-all duration-500 flex flex-col items-center justify-center">
                         <h3 className="text-lg font-bold uppercase tracking-wide">Wiztie</h3>
                         <p className="text-sm text-white">Collaborated with the team</p>
                         <Link to={"/projects"}>
-                            <button className="mt-4 px-4 py-2 bg-[#ff0000] text-white rounded-md shadow-md hover:bg-[#cc0000] transition-all duration-300">
+                            <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-400 transition-all duration-300">
                                 View Project
                             </button>
                         </Link>
@@ -109,11 +109,11 @@ const Project_part = () => {
                         alt="tree"
                         className="block w-full h-full  transition-transform duration-500 group-hover:scale-105"
                     />
-                    <div className="absolute top-full w-full h-full bg-gradient-to-t from-black via-gray-800 to-transparent text-[#ff0000] opacity-0 group-hover:top-0 group-hover:opacity-90 transition-all duration-500 flex flex-col items-center justify-center">
+                    <div className="absolute top-full w-full h-full bg-gradient-to-t from-black via-gray-800 to-transparent text-blue-500 opacity-0 group-hover:top-0 group-hover:opacity-90 transition-all duration-500 flex flex-col items-center justify-center">
                         <h3 className="text-lg font-bold uppercase tracking-wide">FoodZilla</h3>
                         <p className="text-sm text-white">Designed and developed independently</p>
                         <Link to={"/projects"}>
-                            <button className="mt-4 px-4 py-2 bg-[#ff0000] text-white rounded-md shadow-md hover:bg-[#cc0000] transition-all duration-300">
+                            <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-400 transition-all duration-300">
                                 View Project
                             </button>
                         </Link>

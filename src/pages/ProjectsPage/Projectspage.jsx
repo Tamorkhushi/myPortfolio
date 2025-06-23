@@ -1,7 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import AOS from "aos";
-import "aos/dist/aos.css"; // Import AOS styles
+import "aos/dist/aos.css"; 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -17,10 +17,10 @@ const ProjectCard = ({ title, description, techStack, images }) => {
   return (
     <div className="bg-slate-800 my-4 w-full md:w-[49%] p-2 sm:p-4 rounded-lg shadow-lg" data-aos="fade-up">
       <div className="bg-gray-200 p-4 rounded-lg">
-        <h2 className= "text-lg sm:text-2xl text-[#ff0000] font-bold mb-2">{title}</h2>
+        <h2 className= "text-lg sm:text-2xl text-blue-500 font-bold mb-2">{title}</h2>
         <p className="text-[12px] sm:text-base mb-2">{description}</p>
         <p className="text-[12px] sm:text-base">
-          <span className="text-[#ff0000] font-bold">Technology used: </span>
+          <span className="text-blue-500 font-bold">Technology used: </span>
           {techStack}
         </p>
       </div>
@@ -50,7 +50,7 @@ function Projectspage() {
       title: "ShopEase (E-Commerce Website)",
       description: "Developed ShopEase, an e-commerce platform offering a seamless shopping experience with a user-friendly interface, secure checkout, and extensive clothing selection for men, women, and kids.",
       techStack: "React.js, Zustand,Formik, Tailwind CSS, Node.js, Express, MongoDB",
-      images: ["/projectsImg/shopeaseP/shopease.png", "/projectsImg/shopeaseP/arrival.png", "/projectsImg/shopeaseP/cart.png", "/projectsImg/shopeaseP/categories.png", "/projectsImg/shopeaseP/details.png", "/projectsImg/shopeaseP/whishlist.png"],
+      images: ["/projectsImg/shopeaseP/shopease.png", "/projectsImg/shopeaseP/arrival.png", "/projectsImg/shopeaseP/cart.png", "/projectsImg/shopeaseP/details.png", "/projectsImg/shopeaseP/whishlist.png"],
     },
     {
       title: "FoodZilla Web App",
@@ -62,7 +62,7 @@ function Projectspage() {
         </ul>
       ),
       techStack: "React.js, Tailwind CSS, Redux Toolkit",
-      images: ["/projectsImg/foodZilla/foodZilla.png", "/projectsImg/foodZilla/cart.png", "/projectsImg/foodZilla/contact.png", "/projectsImg/foodZilla/items.png", "/projectsImg/foodZilla/user.png"],
+      images: ["/projectsImg/foodZilla/foodZilla.png", "/projectsImg/foodZilla/cart.png", "/projectsImg/foodZilla/contact.png", "/projectsImg/foodZilla/items.png"],
     },
     {
       title: "WIZTIE Web App",
@@ -73,7 +73,7 @@ function Projectspage() {
         </ul>
       ),
       techStack: "React.js, Tailwind CSS, Redux Toolkit, Node.js, Express, MongoDB",
-      images: ["/projectsImg/wiztiep/wiztie.png", "/projectsImg/wiztiep/user2.png", "/projectsImg/wiztiep/editP.png", "/projectsImg/wiztiep/contact.png", "/projectsImg/wiztiep/projects.png", "/projectsImg/wiztiep/signup.png", "/projectsImg/wiztiep/user.png"],
+      images: ["/projectsImg/wiztiep/wiztie.png", "/projectsImg/wiztiep/contact.png", "/projectsImg/wiztiep/projects.png", "/projectsImg/wiztiep/signup.png"],
     },
     {
       title: "Acting school Web App",
@@ -81,44 +81,43 @@ function Projectspage() {
         <ul className="list-disc pl-4">
           <li>Create a platform for students to showcase their completed projects.</li>
           <li>Allow students to create and manage their projects.</li>
-          <li className="flex gap-2"><span className="text-[#ff0000]">Link: 👉🏻</span><a  href="https://glittery-capybara-2d6567.netlify.app/"  className="text-blue-500 underline flex items-center gap-1 animate-bounce hover:animate-none transition-all duration-300"><span>Click</span></a></li>
+          <li className="flex gap-2"><span className="text-[#ff0000]">Link: 👉🏻</span><a  href="https://actingschool.netlify.app"  className="text-blue-500 underline flex items-center gap-1 animate-bounce hover:animate-none transition-all duration-300"><span>Click</span></a></li>
         </ul>
       ),
       techStack: "React.js, Tailwind CSS, Redux Toolkit, Node.js, Express, MongoDB",
-      images: ["/projectsImg/actingScl/actingScl.png", "/projectsImg/actingScl/client.png", "/projectsImg/actingScl/contact.png", "/projectsImg/actingScl/course.png","/projectsImg/actingScl/footer.png", "/projectsImg/actingScl/homedark.png"],
+      images: ["/projectsImg/actingScl/actingScl.png", "/projectsImg/actingScl/client.png", "/projectsImg/actingScl/contect.jpg", "/projectsImg/actingScl/course.png","/projectsImg/actingScl/footer.jpg", "/projectsImg/actingScl/homedark.png"],
     },
+    // {
+    //   title: "Shri Ram college eng. & managament",
+    //   description: (
+    //     <ul className="list-disc pl-4">
+    //       <li>Header: Include the name of the college, tagline, and navigation menu.</li>
+    //       <li>Campus Overview: Mention facilities, such as labs, libraries, and hostels.</li>
+    //       <li>Integration with Google Maps for location.</li>
+    //       <li>Include quick links (Admissions, Courses, etc.).</li>
+    //     </ul>
+    //   ),
+    //   techStack: "React.js, Tailwind CSS,Formik, Redux Toolkit, Node.js, Express, MongoDB",
+    //   images: ["/projectsImg/srcemP/srcem.png", "/projectsImg/srcemP/corporate.png", "/projectsImg/srcemP/contact.png", "/projectsImg/srcemP/courses.png", "/projectsImg/srcemP/hostel.png"],
+    // },
     {
-      title: "Shri Ram college eng. & managament",
+      title: "Industries We Serve",
       description: (
         <ul className="list-disc pl-4">
-          <li>Header: Include the name of the college, tagline, and navigation menu.</li>
-          <li>Campus Overview: Mention facilities, such as labs, libraries, and hostels.</li>
-          <li>Integration with Google Maps for location.</li>
-          <li>Include quick links (Admissions, Courses, etc.).</li>
-        </ul>
-      ),
-      techStack: "React.js, Tailwind CSS,Formik, Redux Toolkit, Node.js, Express, MongoDB",
-      images: ["/projectsImg/srcemP/srcem.png", "/projectsImg/srcemP/corporate.png", "/projectsImg/srcemP/contact.png", "/projectsImg/srcemP/courses.png", "/projectsImg/srcemP/hostel.png"],
-    },
-    {
-      title: "Attifram",
-      description: (
-        <ul className="list-disc pl-4">
-          <li>Share insights about the company, its vision, and industry experience.</li>
-          <li>Highlight values like innovation, integrity, and customer focus.</li>
-          <li> Brief descriptions of key IT services offered (e.g., Web Development)</li>
-          <li className="flex gap-2"><span className="text-[#ff0000]">Link: 👉🏻</span><a  href="https://rohitthecoderr.github.io/Atiframe/"  className="text-blue-500 underline flex items-center gap-1 animate-bounce hover:animate-none transition-all duration-300"><span>Click</span></a>
+          <li>This is a static webpage showcasing the industries .</li>
+          <li>Section contains industry-specific content and is styled with clean, responsive design</li>
+          <li className="flex gap-2"><span className="text-[#ff0000]">Link: 👉🏻</span><a  href="https://tamorkhushi.github.io/industrywebserv/"  className="text-blue-500 underline flex items-center gap-1 animate-bounce hover:animate-none transition-all duration-300"><span>Click</span></a>
 </li>
  </ul>
       ),
-      techStack: "Html,CSS, javaScript, Third-party library.",
-      images: ["/projectsImg/atifram/home.png", "/projectsImg/atifram/projects.png", "/projectsImg/atifram/services.png", "/projectsImg/atifram/team.png",  "/projectsImg/atifram/digital.png"],
+      techStack: "Html,CSS, javaScript.",
+      images: ["/projectsImg/atifram/health.jpg", "/projectsImg/atifram/detail.jpg", "/projectsImg/atifram/retail.jpg", "/projectsImg/atifram/retaildetail.jpg"],
     },
   ];
 
   return (
     <>
-     <h2 className='text-4xl text-center uppercase italic font-DM font-Five text-[#ff0000] mt-5' data-aos="fade-down"> My Projects </h2>
+     <h2 className='text-4xl text-center uppercase  font-DM font-Five  mt-5' data-aos="fade-down"> My Projects </h2>
     <div className="w-[100%] sm:w-[90%] md:w-[95%] lg:w-[90%] flex flex-wrap justify-center gap-4 m-auto">
       {projects.map((project, index) => (
         <ProjectCard

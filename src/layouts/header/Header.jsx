@@ -20,9 +20,9 @@ const Header = ({ img }) => {
 
   return (
     <>
-      <div className="h-[5rem] md:h-[7rem] shadow-lg bg-slate-100 flex justify-between items-end px-2 sm:px-4 md:px-12 py-2 fixed w-full z-50">
+      <div className="h-[5rem] md:h-[6rem] shadow-lg bg-slate-100 flex justify-between items-end px-2 sm:px-4 md:px-12 py-2 fixed w-full z-50 bg-blue-100">
         <div className="cursor-pointer h-[5rem] flex items-center my-auto font-thin">
-          <Link to="/"><div className="text-[#FF0000] uppercase font-sans font-semibold text-2xl">Khushi</div></Link>
+          <Link to="/"><div className=" uppercase font-sans font-semibold text-2xl">Khushi</div></Link>
         </div>
         {/* <Navbarcard/> */}
         <div className="w-auto h-auto">
